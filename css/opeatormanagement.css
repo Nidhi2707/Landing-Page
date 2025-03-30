@@ -1,0 +1,103 @@
+.maintablinks {float: left; width: 100%; clear: both; margin-top: 20px;}
+.maintablinks .mainnavtabs {border: none; background-color: #ACC8FF; margin-bottom: 15px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; overflow: hidden;}
+.maintablinks .mainnavtabs .nav-link {border: none !important; color: #071E4B; padding: .56rem 1.18rem; font-size: 0.813em; border-radius: 0px !important; -moz-border-radius: 0px !important; -webkit-border-radius: 0px !important;}
+.maintablinks .mainnavtabs .nav-item.show .nav-link, .maintablinks .mainnavtabs .nav-link.active {background-color: #071E4B !important; color: #ffffff;}
+.cmt1 {margin-top: 46px !important;}
+.sameaddressopt .nkcheckbox .checkboxbtn + label:before {
+  width: 20px;
+  height: 20px;
+  background-image: none;
+  border: 1px solid #1445f5;
+  border-radius: 3px;
+}
+.sameaddressopt .nkcheckbox .checkboxbtn + label {
+  width: initial;
+  height: initial;
+  padding-bottom: 3px;
+  color: #575757;
+  font-size: 0.813em;
+  padding-left: 30px;
+  max-width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.sameaddressopt .nkcheckbox .checkboxbtn:checked + label:before {
+  background-color: #1445f5;
+  background-image: url(../images/tick-arrow.png) !important;
+  background-position: 50% 50%;
+  background-size: contain;
+  border: 1px solid #1445f5;
+}
+.sameaddressopt .nkcheckbox .checkboxbtn:checked + label {color: #124DFF;}
+
+.serproviewinfo {padding: 15px 15px;}
+/* .modalbgcolo1 {background-color: #F8F8F8;} */
+/* .serproviewinfo .cminfoinnerbox {border: 1px solid rgba(20, 69, 245, 0.2); min-height: 100px; background-color: rgba(248, 248, 248,0.2); box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none;} */
+/* .serproviewinfo .cminfoinnerbox {border: 1px solid rgba(20, 69, 245, 0.2); height: 100%; background-color: rgba(248, 248, 248,0.2); box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none;} */
+.serproviewinfo .cminfoinnerbox {min-height: auto;}
+/* .cformmodal .cform .focused .animlable {right: 20px; padding-top: 4px;  -webkit-transform: translate3d(0, -13px, 0); transform: translate3d(0, -13px, 0); } */
+
+.cstatus {display: inline-block; width: 20px; height: 20px; margin-top: 5px; border-radius: 100%; -moz-border-radius: 100%; -webkit-border-radius: 100%; position: relative;}
+.cstatus span {display: inline-block; width: 14px; height: 14px; border-radius: 100%; -moz-border-radius: 100%; -webkit-border-radius: 100%; position: absolute; left: 2px; top: 2px;}
+.cstatusactive {border: 1px solid #FF1A1A;}
+.cstatusactive span { background-color: #FF1A1A;}
+.cstatusinactive {border: 1px solid #11B716;}
+.cstatusinactive span {background-color: #11B716;}
+
+.cvaildtext, .blocktablerow {padding: 0 10px;}
+.cvaildtext p {color: #575757; font-size: 0.813em;}
+.blocktablerow .blocktableuinner {border: 1px solid #D1D1D1; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;}
+.cviewtexts {display: block; min-height: 50px; padding:10px 15px; background-color: #F4F4F4; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;}
+.cviewtexts h6 {color: #747474; font-size: 1.25em;}
+.cviewtexts .subtexts {color: #A49999; font-size: 0.813em;}
+.blocktablerow .blocktableuinner .seachfield .custfield, .blocktablerow .blocktableuinner .searchbar .seachfield .animlable {background-color: #ffffff;}
+.blocktablerow .blocktableuinner .seachfield.focused .animlable {padding-top: 0px; right: initial; background-color: #ffffff; -webkit-transform: translate3d(0, -20px, 0); transform: translate3d(0, -20px, 0);}
+
+.showprocess li {display: inline-block; vertical-align: top; width: 15px; margin-right: 10px; height: 15px; border: 1px solid #4095F7; margin-bottom: 15px;}
+.showprocess .fillbox {background-color: #4095F7;}
+.checkboxopts .nkcheckbox {margin-top: 10px; margin-right: 10px;}
+.checkboxopts .nkcheckbox:last-child {margin-right: 0px;}
+.checkboxopts .nkcheckbox .checkboxbtn + label {width: auto; height: auto; padding-left: 25px; font-size: 0.813em; color: #1445F5;}
+.checkboxopts .nkcheckbox .checkboxbtn + label:before {
+  width: 19px;
+  height: 19px;
+  background-image: none;
+  border: 1px solid #1445F5;
+  border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px;
+}
+.checkboxopts .nkcheckbox .checkboxbtn:checked + label:before {
+  background-color: #4095F7;
+  background-image: url(../images/tick-arrow.png) !important;
+  background-position: 50% 50%;
+  background-size: contain;
+  border: 1px solid #4095F7;
+}
+/* .checkboxopts .nkcheckbox .checkboxbtn:checked + label {color: #4095F7;} */
+.datefield .custfield {background-image: url(../images/calender-icon.svg); background-repeat: no-repeat; background-position: calc(100% - 14px) 50%;}
+.cform .datefield.focused .animlable {right: 54px;}
+.datefield input[type="date"]::-webkit-inner-spin-button,
+.datefield input[type="date"]::-webkit-calendar-picker-indicator {opacity: 0; appearance:none; -moz-appearance:none; -webkit-appearance:none;}
+
+.disdatefield .custfield {background-image: url(../images/disabled-calender-icon.svg); background-repeat: no-repeat; background-position: calc(100% - 14px) 50%;}
+.cform .disdatefield.focused .animlable {right: 54px;}
+.disdatefield input[type="date"]::-webkit-inner-spin-button,
+.disdatefield input[type="date"]::-webkit-calendar-picker-indicator {opacity: 0; appearance:none; -moz-appearance:none; -webkit-appearance:none;}
+
+.cragebox {width: 75%; padding: 20px 54px 20px 10px; border: 1px solid #1445F5; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;}
+.cragebox .row {position: relative;}
+.addfieldrow {position: absolute; right: -29px; top: 10px; width: 24px; height: 24px; background:url(../images/plus-icon4.svg) no-repeat 50% 50%;}
+.addfieldrow.addactive {background-image: url(../images/plus-icon4-a.svg); cursor: pointer;}
+.cform .custfield.valfield {padding: 6px 14px; border: 1px solid #1445f5; border-radius: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px;}
+.spline {display: inline-block; margin: 10px 0px; width: 97%; height: 9px; position: relative; text-align: center;}
+.spline:before, .spline:after {content: ""; position: absolute; left: 50%; transform: translateX(-50%); -moz-transform: translateX(-50%); -webkit-transform: translateX(-50%);}
+.spline:before {width: 9px; height: 9px; background-color: #808080; top: 0px; z-index: 1; border-radius: 100%; -moz-border-radius: 100%; -webkit-border-radius: 100%;}
+.spline:after {background-color:#969696; width: 541px; height: 1px; top: 4px;}
+.remfieldbtn {position:absolute; width: 18px; height: 18px; right: -26px; top: 10px; background: url(../images/close-icon3.svg) no-repeat 50% 50%; cursor:pointer;}
+.editOwnerRangebtn {position:absolute; width: 18px; height: 18px; right: -26px; top: 10px; background: url(../images/edit-icon.svg) no-repeat 50% 50%; cursor:pointer;}
+.viewrangevale {background-color: #DBE4FF; padding: 5px 20px;}
+.viewrangevale .table {margin: 0px;}
+.viewrangevale .table thead th {font-size: 0.938em; color: #124DFF; font-weight: normal; padding: 5px 10px; border-bottom: 1px solid #124DFF;}
+.viewrangevale .table td {font-size: 0.875em; color: #0A1245; font-weight: normal; padding: 12px 10px 5px;}
+
+.addfieldtemplaterow { margin: 35px 20px; width: 24px; height: 24px;background-image: url(../images/plus-icon4-a.svg); cursor: pointer;}
