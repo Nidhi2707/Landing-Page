@@ -1,0 +1,143 @@
+.mlabel {display: none;}
+@media only screen and (min-width: 1441px) {
+	.cminfoinnerbox .cmtexts .labeltext {width: 195px;}
+ 	.cminfoinnerbox .cmtexts .infotext {width: calc(100% - 195px); width: -moz-calc(100% - 195px); width: -webkit-calc(100% - 195px);}
+	 .checkboxopts .nkcheckbox {font-size: 89%;}
+}
+@media only screen and (max-width: 1439px){
+	.innerconts .datatable ul .tbcol2 {width: 15%;}
+	.innerconts .datatable ul .tbcol3 {width: 12%;}
+	.innerconts .datatable ul .tbcol4 {width: 17%;}
+	.innerconts .datatable ul .tbcol6 {width: 14%;}
+	.innerconts .datatable ul .tbcol7 {width: 12%;}
+
+	/** After Filter Download Page **/
+	.innerconts .datatable.filtertable ul .tbcol1 {width: 3%;}
+	/** Sign In Page Start **/
+	.mid1366 {max-width: 1170px;}
+	.tnmsignincont .sleftexts {padding: 0 60px;}
+	/** Sign In Page End **/
+}
+@media only screen and (max-width: 1365px){
+	.container {max-width: 1192px;}
+	.levelspart .leveltable .tcol2, .levelspart .leveltable .tcol3, .levelspart .leveltable .tcol4, .levelspart .leveltable .tcol5 {width: 240px;}
+	.levelspart .leveltable .tcol4 {padding-left: 50px;padding-right: 50px;}
+	.levelspart .leveltable .tcol5 {padding-left: 55px;padding-right: 55px;}
+	.levelspart .leveltable .tabledata .databtn .customer:after, .levelspart .leveltable .tabledata .databtn .band:after {width: 25%;}
+	.levelspart .leveltable .tabledata .tcol4:before {right: 157px;}
+	.levelspart .leveltable .tabledata .tcol5:before {right: 154px;}
+	.levelspart .leveltable .tabledata .tcol3 ul li .databtn .pre:after {width: 123%;}
+	.levelspart .leveltable .tabledata .databtn .col2:after {width: 70%;}
+	.levelspart .leveltable .tabledata .databtn .data:after {width: 61%;}
+}
+@media only screen and (max-width: 1199px){
+	/** Login Page **/
+	.loginbox, .loginleft .innerbox {width: 460px;}
+
+	.container {max-width: 960px;}
+	.formpart {padding: 0px;}
+	.formpart .fieldcol {padding: 40px 15px 0px 0px; margin: 0px; width: 33.33%;}
+	/*.levelspart {padding: 40px 15px 0px;}*/
+	.levelspart .leveltable .tcol1 {width: 18%;}
+	.levelspart .leveltable .tcol2, .levelspart .leveltable .tcol3, .levelspart .leveltable .tcol4, .levelspart .leveltable .tcol5 {width: 20.5%;}
+	.levelspart .leveltable .tabledata .databtn {width: 100%;}
+	.levelspart .leveltable .tcol {padding: 5px 25px;}
+	.levelspart .leveltable .tabledata ul li .databtn .fix::after, .levelspart .leveltable .tabledata .tcol3 ul li .databtn .post::before {width: 48%; left: -50px;}
+	.levelspart .leveltable .tabledata ul li .databtn .fix::before {left: -18px;}
+	.levelspart .leveltable .tabledata .tcol3 ul li .databtn .pre::after {width: 92.5%;}
+	.levelspart .leveltable .tabledata .tcol3 ul li .databtn .post::after {width: 16%; left: -18px;}
+	.levelspart .leveltable .tabledata .databtn .customer:after, .levelspart .leveltable .tabledata .databtn .band:after {width: 12%;}
+	.levelspart .leveltable .tabledata .databtn .data::after {width: 40%;}
+	.levelspart .leveltable .tabledata .tcol4::before, .levelspart .leveltable .tabledata .tcol5::before {right: 114px; width: 134px;}
+	.levelspart .leveltable .tabledata .databtn .col1::after, .levelspart .leveltable .tabledata .databtn .col3::after {width: 11%;}
+	.levelspart .leveltable .tabledata ul li .databtn .fix:after {top: 54px;}
+	.levelspart .leveltable .tabledata .tcol1 ul li::before, .levelspart .leveltable .tabledata .tcol2 ul li::before {top: 43px;}
+	.levelspart .leveltable .tabledata .databtn .col2:after {width: 38%;}
+
+	.topheader {padding: 20px 44px 20px 20px;}
+	.searchbar {width: 367px;}
+	.innerconts {padding: 18px 44px 50px 20px;}
+	.innerconts .datatable ul .tbcol3, .innerconts .datatable ul .tbcol6 {width: 14%;}
+	.innerconts .datatable ul .tbcol4 {width: 18%;}
+	.innerconts .datatable ul .tbcol7 {width: 9%;}
+	.filtermodal {width: 795px;}
+
+	/** After Filter Download Page **/
+	.innerconts .datatable.filtertable ul .tbcol1 {width: 4%;}
+	.innerconts .datatable.filtertable ul .tbcol7 {width: 14%;}
+
+	/** Sign In Page Start **/
+	.mid1366 {max-width: 950px;}
+	.tnmsignincont .sleftexts {padding: 0 15px;}
+	/** Sign In Page End **/
+
+	/** Days Trial Page Start **/
+	.tnmtrialconts .tnmstartexts h5 {padding-right: 0px; margin-top: 15px;}
+	.tnmtrialconts .tnmstartexts .screenimg {position: relative; width: 100%; margin-top: 30px; text-align: center; right: initial; top: initial;}
+	.tnmtrialconts .sleftexts h4 {margin-top: 0px;}
+	/** Days Trial Page End **/
+}
+@media only screen and (max-width: 991px){
+	/** Login Page **/
+	.loginbox, .loginleft .innerbox {width: 100%;}
+	.loginleft .innerbox {padding: 122px 43px;}
+
+	.container {max-width: 750px;}
+	.levelspart .leveltable {overflow-x: scroll;}
+	.levelspart .leveltable .innertable {width: 930px;}
+	.cformmodal h3 {font-size: 26px;}
+	.cformmodal .cform .fieldrow {margin: 20px 0px 5px;}
+	.cformmodal .cform .fieldrow:nth-child(3) {margin: 0px;}
+	.cformmodal .cform .fieldrow h4 {margin-bottom: 0px;}
+	.cformmodal .fieldcol {padding: 15px;}
+
+	/** Sign In Page Start **/
+	.mid1366 {max-width: 730px;}
+	.sformright {margin-top: 30px;}
+	/** Sign In Page End **/
+}
+@media only screen and (max-width: 767px){
+	/** Login Page **/
+	.loginright, .loginleft {width: 100%; padding: 0px;}
+	.loginbox, .loginleft .innerbox {height: initial; padding: 30px 15px;}
+	.loginleft .innerbox {background-size: cover;}
+	.fheight {height: auto !important;}
+
+	.container {max-width: 100%;}
+	.levelspart {padding-top: 30px;}
+	.formpart .fieldcol {width: 50%;}
+	.cformmodal .modal-body {padding: 10px 0px;}
+	.cformmodal h3 {font-size: 24px;}
+	/*.cform .fieldrow {margin-top: 30px;}*/
+
+	/** Sign In Page Start **/
+	.mid1366 {max-width: 100%; padding: 0 15px;}
+	.tnmsignincont .tnmlogo img {max-width: 270px;}
+	.tnmsignincont .sformright .innerform {padding: 15px;}
+	/** Sign In Page End **/
+
+}
+@media only screen and (max-width: 575px){
+	/** Sign In Page Start **/
+	.tnmsignincont .tnmlogo img {max-width: 210px;}
+	.tnmsignincont .sleftexts h4 {font-size: 22px; line-height: 30px;}
+	.tnmsignincont .sleftexts p, .tnmsignincont .sleftexts h5 {font-size: 16px;}
+	.tnmsignincont .sleftexts ul li {font-size: 16px; background-position: 0 7px; padding-left: 25px;}
+	.tnmsignincont .sleftexts h5 {margin-top: 20px;}
+	/** Sign In Page End **/
+}
+
+	@media only screen and (max-width: 639px){
+	/* .bbtn, .cbtn {padding: 0 15px 0 40px; background-position: 12px 50%; font-size: 14px;} */
+	.formpart .fieldcol {width: 100%; padding:25px 0px 0px;}
+	.cformmodal .fieldcol {padding: 10px 15px;}
+}
+@media only screen and (max-width: 479px){
+	.cformmodal .rowbtns {text-align: center; padding: 0px 13px;}
+	.cformmodal .rowbtns .bbtn {margin: 5px;}
+	.savebtn {margin-left: 5px;}
+}
+@media only screen and (max-width: 360px){
+	.bbtn, .cbtn {padding: 0 15px 0 35px;}
+	.cformmodal .rowbtns .float-right {width: 100%;}
+}
